@@ -1,0 +1,18 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid;
+    text-align: center;
+}
+
+.fechas{
+    transform: rotate(-90.0deg);
+}
+
+div{
+    margin-left: 100px;
+    margin-right: 100px;
+}

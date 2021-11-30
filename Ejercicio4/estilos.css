@@ -1,0 +1,144 @@
+body {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+ul {
+  text-align: right;
+}
+
+
+#header {
+  border: 1px;
+  border-style: solid;
+  border-top-style: solid;
+}
+
+#menu li {
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+  font: bold 14px;
+}
+li a {
+  text-decoration: none;
+}
+
+#box-container {
+  display: flex;
+  height: 500px;
+}
+
+#titulo {
+  width: 70%;
+  height: 100%;
+  border: 1px;
+  border-style: solid;
+}
+
+.main {
+  display: flex;
+  margin: 35px;
+  margin-top: 10px;
+}
+
+.main h3 {
+  margin-top: 0;
+}
+
+.main div {
+  width: 80%;
+}
+
+.imag {
+  width: 100%;
+  height: 100%;
+  border: 0.5px;
+  border-style: solid;
+  border-color: #dcdcdd;
+}
+
+#imagen {
+  width: 15%;
+  margin-right: 10px;
+}
+
+#elliot {
+  width: 30%;
+  height: 100%;
+  border: 1px;
+  border-style: solid;
+}
+
+.tarjeta {
+  margin: 15px;
+  height: 46%;
+  border: 1px;
+  border-style: solid;
+  border-color: #dcdcdd;
+  border-radius: 4%;
+}
+
+.tarjeta div {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 50px;
+}
+
+.perfil {
+  text-align: right;
+  width: 20%;
+  height: 10%;
+}
+
+.perfil img {
+  width: 90%;
+  height: 100%;
+  border: 0.5px;
+  border-style: solid;
+  border-color: #dcdcdd;
+}
+
+.botones{
+  width: 95%;
+}
+
+.btnAceptar {
+  font-family: fantasy;
+  opacity: .70;
+  border-color: green;
+  text-decoration: none;
+  background: none;
+  color: green;
+  width: 45%;
+  height: 80%;
+  margin-right: -5px;
+  margin-left: 5px;
+}
+
+.btnAceptar:hover{
+  background: #82e0aa ;
+  color: white;
+}
+
+.btnRechazar{
+  font-family: fantasy;
+  opacity: .70;
+  border-color: red;
+  text-decoration: none;
+  background: none;
+  color: red;
+  width: 45%;
+  height: 80%;
+  margin-right: 5px;
+}
+
+.btnRechazar:hover{
+  background: #ec7063;
+  color: white;
+}
+
+#footer {
+  border: 1px;
+  border-style: solid;
+}

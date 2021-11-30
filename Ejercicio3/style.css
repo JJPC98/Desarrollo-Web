@@ -1,0 +1,34 @@
+body{
+    background-image: url(Imagenes/fondo1.jpg);
+}
+
+h1{
+    color: black;
+}
+input{
+    border: 1px solid #a7a5a8;
+    background-color: white;
+}
+
+table{
+    background-color: #625f63;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+textarea{
+    background-color: #ffffff;
+}
+
+label{
+    color: black;
+    display:block; width:x; height:y; text-align:right;
+    
+}
+
+::placeholder{
+    color: black;
+}
+
+tr.spaceUnder>td {
+    padding-bottom: 1em;
+}

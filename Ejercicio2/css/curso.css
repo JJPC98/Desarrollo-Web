@@ -1,0 +1,271 @@
+body {
+  margin: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: sans-serif;
+  background-color: #58d68d;
+}
+
+nav {
+  top: 0;
+  padding: 5px;
+  background-color: #5fa042;
+}
+
+nav ul {
+  text-align: right;
+  margin-right: 30px;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+  font: bold 14px;
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  display: flex;
+  height: 100px;
+  background-color: white;
+}
+
+header div {
+  margin-right: 60%;
+}
+
+header img {
+  height: 100px;
+}
+
+#container {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+#div1 {
+  width: 7.5%;
+  background-color: #f1f1f1;
+}
+
+#div2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 85%;
+  background-color: #f1f1f1;
+}
+
+#div3 {
+  width: 7.5%;
+  background-color: #f1f1f1;
+}
+
+.curso {
+  margin-left: 10%;
+  margin-bottom: 2%;
+  width: 80%;
+  height: auto;
+}
+
+.perfil {
+  width: auto;
+  height: 400px;
+  margin-bottom: 0px;
+}
+
+.perfil img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: -4px;
+}
+
+#inicio {
+  width: auto;
+  height: auto;
+  padding-top: 10px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  background-color: white;
+  padding-bottom: 5px;
+  border-radius: 6px 6px;
+}
+
+#inicio h4 {
+  font-size: 30px;
+}
+
+#inicio p,
+h4 {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0px;
+  padding-top: 5px;
+}
+
+
+#nose{
+  display: flex;
+}
+
+#redes{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 24%;
+  background-color: white;
+}
+
+#redes a{
+  margin-left: 8px;
+  width: 35px;
+  height: 35px;
+}
+
+#redes a:hover{
+  opacity: .7;
+}
+
+#redes img{
+  border-radius: 25%;
+  width: 100%;
+  height: 100%;
+}
+
+#descripcion {
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+iframe {
+  margin-left: 18.5%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#objetivos{
+  margin-left: 30px;
+}
+
+#objetivos h5 {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+#objetivos ul {
+  padding-top: 0px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+#temas{
+  margin-left: 30px;
+}
+
+#temas h5 {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+#temas ul {
+  padding-top: 0px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+#formulario{
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+#formulario form {
+  margin-left: 30px;
+  width: 300px;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+#formulario h5{
+  padding-top: 0px;
+  text-align: center;
+}
+
+#formulario ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#formulario li + li {
+  margin-top: 1em;
+}
+
+#formulario label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+#formulario button {
+  margin-left: 7em;
+  width: 100px;
+  padding: auto;
+  font-size: 15px;
+  
+}
+
+#proximos{
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 25px;
+  background-color: white;
+}
+
+#curso_proxi{
+  display: flex;
+  margin-top: 10px;
+  height: 100px;
+  text-align: right;
+  box-shadow: 0 0 3px #5FA042;
+  border-radius: 0px 5px 5px 0px;
+}
+
+#curso_proxi h5{
+  margin: 0;
+  margin-right: 10px;
+  padding-top: 5px;
+}
+
+#img_proxi{
+  width: 200px;
+  height: auto;
+}
+
+#img_proxi img{
+  width: 100%;
+  height: 100%;
+}
+
+#descripcion_proxi{
+  text-align: left;
+  width: 70%;
+  height: auto;
+  margin: 0;
+}
+
+#descripcion_proxi h3{
+  padding: 0;
+  padding-top: 5px;
+  margin: 0;
+}
+
+
+footer {
+  padding: 50px;
+  background-image: url(../images/footer.png);
+  background-position: 50% 50%;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="vieport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Formulario</title>
+    </head>
+    <body>
+
+        <h1 align="center">FORMULARIO</h1>
+
+        <div>
+        <form action="">
+        <table style="margin: 0 auto">
+
+            <tr class="spaceUnder">
+                <td><label>Campo 1:</label></td>
+                <td><input type="number" name="numero" placeholder="Ingrese el numero" min="1" max="9999999999"></td>
+            </tr>
+
+            <tr>
+                <td><label>Campo 2:</label></td>
+                <td><input type="text" name="nombres" id="nombres" placeholder="Texto" maxlength="40"></td>
+            </tr>
+
+            <tr class="spaceUnder">
+                <td></td>
+                <td><input type="text" name="nombres" id="nombres" placeholder="Texto" maxlength="40"></td>
+            </tr>
+
+            <tr class="spaceUnder">
+                <td><label>Area de texto:</label></td>
+                <td><textarea rows="3" cols="65" wrap="soft" maxlength="200"placeholder="Ingrese su texto"></textarea></td>
+            </tr>
+
+            <tr class="spaceUnder">
+                <td><label>Fecha:</label></td>
+                <td><input type="date" name="fecha"/></td>
+            </tr>
+
+            <tr class="spaceUnder">
+                <td><label>Hora:</label></td>
+                <td><input type="time" name="hora"/></td>
+            </tr>
+
+            <tr class="spaceUnder">
+                <td><label>Seleccionar:</label></td>
+                <td><input type="checkbox" name="seleccionar"></td>
+            </tr>
+
+            <tr class="spaceUnder">
+                <td><label>Seleccione:</label></td>
+                <td><input type="radio" Name="Radio" value="1"><label1 style="color: black;">Opcion 1</label1>
+                    <input type="radio" Name="Radio" value="2"><label1 style="color: black">Opcion 2</label1>
+                    <input type="radio" Name="Radio" value="3"><label1 style="color: black;">Opcion 3</label1>
+                </td>
+            </tr>
+
+            <tr class="spaceUnder">
+                <td><label>Color:</label></td>
+                <td><input type="color" name="colores" id="micolor" value="#f00"/></td>
+            </tr>
+
+            <tr class="spaceUnder">
+                <td><label>Correo:</label></td>
+                <td><input type="email" name="correo" id="correo" placeholder="Ingrese su correo"></td>
+            </tr>
+
+            <tr class="spaceUnder">
+                <td><label>Escoger:</label></td>
+                <td><select name="lista desplegable">
+                    <option value="1">Opcion 1</option> 
+                    <option value="2">Opcion 2</option> 
+                    <option value="3">Opcion 3</option>
+                    <option value="4">Opcion 4</option> 
+                    <option value="5">Opcion 5</option> 
+                    <option value="6">Opcion 6</option> 
+                 </select> 
+                </td>
+            </tr>
+
+            <tr class="spaceUnder">
+                <td><label>Multiples Opciones:</label></td>
+                <td><select name="lista desplegable" multiple>
+                    <option value="1">Opcion 1</option> 
+                    <option value="2">Opcion 2</option> 
+                    <option value="3">Opcion 3</option>
+                    <option value="4">Opcion 4</option> 
+                    <option value="5">Opcion 5</option> 
+                    <option value="6">Opcion 6</option> 
+                 </select> 
+                </td>
+            </tr>
+
+            <tr class="spaceUnder">
+                <td><label>Busqueda:</label></td>
+                    <td><input type="search" list="Instrumento" placeholder="Buscar Instrumento">
+                        <datalist id="Instrumento">
+                          <option value="Guitarra Acustica">
+                          <option value="Guitarra Electrica">
+                          <option value="Violin">
+                          <option value="Piano">
+                          <option value="Trompeta">
+                          <option value="Bateria Acustica">
+                          <option value="Bateria Electronica">
+                          <option value="Bajo Electrico">           
+                          <option value="Flauta">
+                          <option value="Arpa">
+                        </datalist>
+                    </td>
+            </tr>
+        </table>
+        </form>
+    </body>

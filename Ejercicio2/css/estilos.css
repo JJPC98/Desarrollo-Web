@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: sans-serif;
+  background-color: #58d68d;
+}
+
+ul {
+  text-align: right;
+}
+
+nav{
+  padding: 5px;
+  background-color:#5FA042;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+  font: bold 14px;
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+header{
+  display: flex;
+  height: 100px;
+  background-color:white;
+}
+
+header div{
+  margin-right: 60%;
+}
+
+header img{
+  height: 100px;
+}
+
+#box-container {
+  display: flex;
+  height: auto;
+  background-color: #F1F1F1;
+}
+
+#categorias {
+  width: 70%;
+  height: auto;
+}
+
+.main {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: auto;
+  display: flex;
+  margin: auto;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.main h3 {
+  margin-top: 0;
+}
+
+#curso {
+  display: flex;
+  margin: 10px;
+  width: 45%;
+  height: auto;
+  background-color: white;
+  border-radius: 2%;
+  box-shadow: 0 0 15px gray;
+}
+
+#curso p {
+  margin-bottom: 2px;
+  margin-top: 0;
+  height: auto;
+  font-weight: bold;
+}
+
+#curso a{
+  text-decoration: none;
+  color: blue;
+}
+
+#curso div {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#curso img {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+}
+
+#imagen {
+  width: 57px;
+  height: 57px;
+  margin: auto;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+#perfiles {
+  width: 30%;
+  height: auto;
+  border-left: 1px solid;
+  border-color:#E2E2E2;
+  padding-bottom: 15px;
+}
+
+.tarjeta {
+  margin: 15px;
+  height: 46%;
+  border: 1px;
+  border-style: solid;
+  border-color: #dcdcdd;
+  border-radius: 4%;
+  box-shadow: 0 0 10px gray;
+}
+
+.tarjeta div {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 50px;
+}
+
+#perfil_content{
+  display: flex;
+  margin: auto;
+  height: auto;
+}
+
+.perfil {
+  text-align: right;
+  width: 20%;
+  height: 100%;
+}
+
+.perfil img {
+  width: 70%;
+  height: 90%;
+  margin-right: 10px;
+}
+
+.botones {
+  width: 95%;
+  padding: auto;
+  text-align: center;
+}
+
+.botones button{
+  margin: -3px;
+  margin-top: 5px;
+}
+
+.btnAceptar {
+  opacity: 0.7;
+  border-color: green;
+  text-decoration: none;
+  background: none;
+  color: green;
+  width: 45%;
+  height: 80%;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.btnAceptar:hover {
+  background: #82e0aa;
+  color: white;
+}
+
+.btnRechazar {
+  opacity: 0.7;
+  border-color: red;
+  text-decoration: none;
+  background: none;
+  color: red;
+  width: 45%;
+  height: 80%;
+  margin-right: 5px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.btnRechazar:hover {
+  background: #ec7063;
+  color: white;
+}
+
+footer{
+  padding: 50px;
+  background-image: url(../images/footer.png);
+  background-position: 50% 50%;
+}
