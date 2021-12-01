@@ -6,13 +6,14 @@ body {
   background-color: #58d68d;
 }
 
-ul {
-  text-align: right;
-}
-
 nav{
   padding: 5px;
   background-color:#5FA042;
+}
+
+nav ul {
+  text-align: right;
+  margin-right: 30px;
 }
 
 nav li {
@@ -98,14 +99,13 @@ header img {
 .descripcion {
   width: auto;
   height: auto;
-  padding-top: 10px;
   margin-top: 0px;
   background-color: white;
   padding-bottom: 5px;
 }
 
 .descripcion p,
-h4 {
+h3 {
   padding-left: 20px;
   padding-right: 20px;
   margin: 0px;
